@@ -7,7 +7,7 @@ public:
         
         //create maps mp1 , mp2 for both string 
         unordered_map<char,int> mp1;
-        unordered_map<char,int> mp2;
+        unordered_map<char,int> mp2; // we can also use only one map by inc freq for s and dec freq for t
         
         // feeding values in maps - value is intialised with 0 automatically
         for (int i =0 ; i<t.size() ; i++){
