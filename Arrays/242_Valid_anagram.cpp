@@ -5,7 +5,7 @@ public:
         if (s.size()!=t.size())
         return false;
         
-        //create maps mp1 , mp2 for both string 
+        //create maps mp1 , mp2 for both string vlc
         unordered_map<char,int> mp1;
         unordered_map<char,int> mp2; // we can also use only one map by inc freq for s and dec freq for t
         
