@@ -3,7 +3,7 @@ public:
     void sortColors(vector<int>& nums) {
         // three pointers approach - low , mid , high
         // 0->low-1 = store 0s
-        // low->m-1 = store 1s
+        // low->mid-1 = store 1s
         // m->high = store unsorted array (ise khtm krna h kyuki ye ek extra section h gives while loop end logic)
         // high+1->nums.size()-1 = store 2s
 
