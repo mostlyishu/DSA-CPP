@@ -10,7 +10,7 @@ public:
             return mid;
 
             // check if left half is sorted before mid
-            if (nums[s]<nums[mid]){
+            if (nums[s]<=nums[mid]){
                 // target is possible in left half ?
                 if (nums[s]<=target && target<nums[mid])
                 e=mid-1; //right half array eliminated
