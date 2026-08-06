@@ -10,7 +10,7 @@ public:
             // when a neg number is added the current sum decreases hence it's peak value is stored in maxsum
             if (currentsum<0){ 
                 currentsum=0; // reset as we either don't want negative output or we want the output to be very less in negative
-            }
+            } // kyuki ek b negative humare ans ko khrb krra h .. fr humne uss element ko include krne se phle hi ans find krlia tha 
         }
         return maxsum; // for test case {-5,-2,-3} , -2 is returned 
     }
