@@ -30,7 +30,7 @@ int findMinOps( int* arr , int  n){
 // Driver program to test above
 int main()
 {
-    int arr[] = {1, 4, 5, 5, 4, 1};
+    int arr[] = {1, 4, 5, 2, 4, 1};
     int n = sizeof(arr)/sizeof(arr[0]);
   cout << "minimum operations required : " <<  findMinOps(arr, n) << endl;
 }
